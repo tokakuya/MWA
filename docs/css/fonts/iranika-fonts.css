@@ -1,0 +1,27 @@
+/* app global css in SCSS form */
+@font-face {
+    font-family: geneikoburi;
+    src: url(./fonts/GenEiKoburiMin_v6.1/GenEiKoburiMin6-R.woff) format("woff");
+}
+@font-face {
+    font-family: geneianti;
+    src: url(./fonts/GenEiAntique_v5.1/GenEiAntiqueNv5-M.woff) format("woff");
+}
+@font-face {
+    font-family: dakutenmin;
+    font-style: normal;
+    font-weight: 400;
+    src: url(./fonts/DakutenMinchoK/DakutenMinchoK.woff) format("woff");
+}
+
+.font-geneikoburi{
+    font-family: 'geneikoburi';
+}
+
+.font-geneianti{
+    font-family: 'geneianti';
+}
+
+.font-dakutenmin{
+    font-family: 'dakuten-min';
+}
